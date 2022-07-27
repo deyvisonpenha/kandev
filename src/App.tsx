@@ -4,7 +4,8 @@ import { TaskListContainer } from './components/TaskListContainer/TaskListContai
 import { HiOutlinePlusCircle } from "react-icons/hi";
 
 function App() {
-
+  const taskList = [];
+  
   return (
     <div className="App">
       <Header className="App-header">
@@ -17,6 +18,7 @@ function App() {
             Criar
           </ButtonComponent>
         </InputFormContent> 
+        
         <TaskListContainer />
       </BodyTasks>
     </div>
